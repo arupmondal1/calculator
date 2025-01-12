@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my calculater</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="display" disabled />
+      <div class="buttons">
+        <button
+          class="cl"
+          onclick="realvale='';
+        document.querySelector('#display').value=realvale;"
+        >
+          C
+        </button>
+        <button
+          conclick="realvale=realvale + '/';
+        document.querySelector('#display').value=realvale;"
+        >
+          /
+        </button>
+        <button
+          onclick="realvale=realvale+ '*';
+        document.querySelector('#display').value=realvale;"
+        >
+          *
+        </button>
+        <button
+          onclick="realvale=realvale+ '-';
+        document.querySelector('#display').value=realvale;"
+        >
+          -
+        </button>
+        <button
+          onclick="realvale=realvale+'+';
+        document.querySelector('#display').value=realvale;"
+        >
+          +
+        </button>
+
+        <button
+          onclick="realvale=realvale+9;
+        document.querySelector('#display').value=realvale;"
+        >
+          9
+        </button>
+
+        <button
+          onclick="realvale=realvale+8;
+      document.querySelector('#display').value=realvale;"
+        >
+          8
+        </button>
+        <button
+          onclick="realvale=realvale+7;
+      document.querySelector('#display').value=realvale;"
+        >
+          7
+        </button>
+        <button
+          onclick="realvale=realvale+6;
+        document.querySelector('#display').value=realvale;"
+        >
+          6
+        </button>
+        <button
+          onclick="realvale=realvale+5;
+      document.querySelector('#display').value=realvale;"
+        >
+          5
+        </button>
+        <button
+          onclick="realvale=realvale +4;
+      document.querySelector('#display').value=realvale;"
+        >
+          4
+        </button>
+        <button
+          onclick="realvale=realvale+3;
+        document.querySelector('#display').value=realvale;"
+        >
+          3
+        </button>
+        <button
+          onclick="realvale=realvale+2;
+      document.querySelector('#display').value=realvale;"
+        >
+          2
+        </button>
+        <button
+          onclick="realvale=realvale+1;
+      document.querySelector('#display').value=realvale;"
+        >
+          1
+        </button>
+        <button
+          onclick="realvale=realvale+0;
+        document.querySelector('#display').value=realvale;"
+        >
+          0
+        </button>
+        <button
+          onclick="
+        let result=eval(realvale);
+        realvale= result;
+      document.querySelector('#display').value=realvale;"
+          class="equal"
+        >
+          =
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
